@@ -41,7 +41,6 @@ db.sqlite3-journal
 # Environment Variables
 .env
 .env.local
-.env.example
 
 # IDE
 .vscode/
