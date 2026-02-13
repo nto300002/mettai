@@ -40,7 +40,7 @@ mettai/
 │   └── settings/             # 環境別設定
 │       ├── base.py           # 共通設定
 │       ├── development.py    # ローカル開発
-│       ├── production.py     # 本番環境（Railway）
+│       ├── production.py     # 本番環境（CloudRun）
 │       └── testing.py        # テスト環境
 └── apps/                     # Django アプリケーション配置先
 ```
