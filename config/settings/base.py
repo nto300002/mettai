@@ -19,17 +19,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 env = environ.Env()
 environ.Env.read_env(BASE_DIR / '.env')
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-1axbyqk-ncaaeqw8s^bb6(=-a&femzhkq%(*b4@(x=h!z+4#lh'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
+# SECURITY WARNING
+# SECRET_KEY, DEBUG, and ALLOWED_HOSTS must be defined in environment-specific settings
+# (development.py, production.py, testing.py)
 
 
 # Application definition
