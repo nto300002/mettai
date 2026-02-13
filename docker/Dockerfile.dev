@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Python依存インストール
-COPY requirements-dev.txt .
+COPY requirements.txt requirements-dev.txt .
 RUN pip install --no-cache-dir -r requirements-dev.txt
 
 # アプリケーションコードをマウント（docker-compose.ymlでvolume指定）
